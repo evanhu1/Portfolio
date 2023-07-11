@@ -11,14 +11,14 @@ export default function Portfolio() {
         <p className="text-xl my-2">Work Experience</p>
         <Grid>
           <Grid.Col className="m-auto" span={"content"}>
-            <WorkCard name="Amazon Web Services (AWS)" imgPath="/../public/aws_logo.png" title="SWE Intern" subtitle="May 2023 – August 2023">
+            <WorkCard name="Amazon Web Services (AWS)" imgPath="/aws_logo.png" title="SWE Intern" subtitle="May 2023 – August 2023">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
                   <List.Item>- Designed and deployed a dynamic configuration system for AWS S3..</List.Item>
                 </List>
               </div>
             </WorkCard>
-            <WorkCard name="Generative AI @ Berkeley" imgPath="/../public/ImagenLogo.png" title="President" subtitle="May 2022 – Current">
+            <WorkCard name="Generative AI @ Berkeley" imgPath="/ImagenLogo.png" title="President" subtitle="May 2022 – Current">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
                   <List.Item>- Founded Berkeley’s biggest Generative AI student organization</List.Item>
@@ -27,7 +27,7 @@ export default function Portfolio() {
             </WorkCard>
           </Grid.Col>
           <Grid.Col className="m-auto" span={"content"}>
-            <WorkCard name="Flexport" imgPath="/../public/flexport_logo.png" title="SWE Intern" subtitle="January 2021 – Februaru 2022">
+            <WorkCard name="Flexport" imgPath="/flexport_logo.png" title="SWE Intern" subtitle="January 2021 – Februaru 2022">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
                   <List.Item>- Built and owned a document viewer using Ruby on Rails, ReactJS, Relay, and Flow.</List.Item>
@@ -36,7 +36,7 @@ export default function Portfolio() {
                 </List>
               </div>
             </WorkCard>
-            <WorkCard name="InterviewQuery" imgPath="/../public/IQ_logo.png" title="ML Engineer Intern" subtitle="May 2022 – July 2022">
+            <WorkCard name="InterviewQuery" imgPath="/IQ_logo.png" title="ML Engineer Intern" subtitle="May 2022 – July 2022">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
                   <List.Item>- Trained a DistilBERT NLP classification model and developed a production pipeline to automate the

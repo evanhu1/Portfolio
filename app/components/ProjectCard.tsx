@@ -11,7 +11,7 @@ interface cardProps {
 export default function ProjectCard(props: cardProps) {
 
   return (
-    <div className="space-y-4 my-2 rounded-lg py-2 bg-white text-neutral-800 w-80 flex flex-col justify-center items-center">
+    <div className="w-80 space-y-4 my-2 rounded-lg p-2 bg-white text-neutral-800 sm:w-1/3 flex flex-col justify-center items-center">
       <h4 className="text-xl">{props.name}</h4>
       {props.children}
       <div className="flex flex-row">
