@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className + " "}>
-        <header className="flex flex-col items-center justify-center bg-slate-800">
+        <header className="flex flex-col items-center justify-center bg-slate-800 pt-4">
           <div className="flex flex-col md:mb-4 md:mt-8 md:flex-row justify-center items-center">
             <Image className="rounded-md mt-8 md:my-0 md:mx-4 w-18 h-18 md:w-28 md:h-28" width={100} height={100} src="/headshot.png" alt="portrait"></Image>
             <Image className="mb-4 w-80 m:w-100 h-18 md:m-0 md:w-auto md:h-28 brightness-[1.1] saturate-[0.7] contrast-[1.1]" width={500} height={12} src="/nameGraphic.png" alt="name"></Image>
