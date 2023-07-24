@@ -15,7 +15,7 @@ export default function WorkCard(props: cardProps) {
   const [opened, { open, close }] = useDisclosure(false);
 
   return (
-    <div className="my-4 rounded-lg py-2 bg-white text-neutral-800 w-80 flex flex-col justify-center items-center">
+    <div className="my-4 rounded-lg py-2 bg-white text-neutral-800 w-80 md:w-96 flex flex-col justify-center items-center">
       <h4 className="text-xl">{props.name}</h4>
       <Image className="mx-auto my-4" src={props.imgPath} width={100} height={100} alt="Company logo" />
       <h5 className="text-sm">{props.title}</h5>

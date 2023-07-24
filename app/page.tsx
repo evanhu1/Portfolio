@@ -14,18 +14,18 @@ export default function Portfolio() {
             <WorkCard name="Amazon Web Services (AWS)" imgPath="/aws_logo.png" title="SWE Intern" subtitle="May 2023 – August 2023">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
-                  <List.Item>- Designed and deployed a dynamic configuration system for AWS S3..</List.Item>
+                  <List.Item>- Designed and developed a modular dynamic configuration service for AWS S3.</List.Item>
                 </List>
               </div>
             </WorkCard>
             <WorkCard name="Generative AI @ Berkeley" imgPath="/ImagenLogo.png" title="President" subtitle="May 2022 – Current">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
-                  <List.Item>- Founded Berkeley’s biggest Generative AI student organization</List.Item>
+                  <List.Item>- Founded Berkeley’s biggest Generative AI student organization.</List.Item>
                 </List>
               </div>
             </WorkCard>
-            <WorkCard name="Flexport" imgPath="/flexport_logo.png" title="SWE Intern" subtitle="January 2021 – Februaru 2022">
+            <WorkCard name="Flexport" imgPath="/flexport_logo.png" title="SWE Intern" subtitle="January 2021 – February 2022">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
                   <List.Item>- Built and owned a document viewer using Ruby on Rails, ReactJS, Relay, and Flow.</List.Item>
@@ -58,6 +58,10 @@ processing of new interview questions.</List.Item>
         <p className="text-2xl my-2 mb-4">Projects</p>
         <ProjectCard name="NeuroGenesis" code="https://github.com/evanhu1/NeuroGenesis/tree/main">
           <p className="text-sm text-center">Cellular automata neuroevolution simulator involving a computational model of the brain, built in C#.</p>
+        </ProjectCard>
+
+        <ProjectCard name="PintOS Operating System" code="">
+          <p className="text-sm text-center">Designed and built a fully featured mini-OS using C and Assembly. Implemented process and thread management syscalls, multiple thread schedulers (e.g. MLFQS), a fully functional file system based on FFS, and virtual memory addressing + (m)alloc / free syscalls.</p>
         </ProjectCard>
         <ProjectCard name="FaceGAN" code="https://github.com/evanhu1/pytorch-CelebA-faCeGAN">
           <p className="text-sm text-center">Deep convolutional cGAN implementation with CelebA dataset that generates faces from textual input.</p>
