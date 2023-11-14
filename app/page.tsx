@@ -11,6 +11,13 @@ export default function Portfolio() {
         <p className="text-2xl my-2 mb-4">Work Experience</p>
         <Grid>
           <Grid.Col className="m-auto" span={"content"}>
+            <WorkCard name="Shortbread" imgPath="/shortbreadlogo.png" title="Generative AI Researcher" subtitle="Sept 2023 – Dec 2023">
+              <div className="pt-2">
+                <List className="mb-4 space-y-2">
+                  <List.Item>- Researching, developing, and optimizing machine learning algorithms and production pipelines using Stable Diffusion and LLMs</List.Item>
+                </List>
+              </div>
+            </WorkCard>
             <WorkCard name="Amazon Web Services (AWS)" imgPath="/aws_logo.png" title="SWE Intern" subtitle="May 2023 – August 2023">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
@@ -18,13 +25,15 @@ export default function Portfolio() {
                 </List>
               </div>
             </WorkCard>
-            <WorkCard name="Generative AI @ Berkeley" imgPath="/ImagenLogo.png" title="President" subtitle="May 2022 – Current">
+            <WorkCard name="Generative AI @ Berkeley" imgPath="/LogoDarkTransparent.png" title="President" subtitle="May 2022 – Current">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
                   <List.Item>- Founded Berkeley’s biggest Generative AI student organization.</List.Item>
                 </List>
               </div>
             </WorkCard>
+          </Grid.Col>
+          <Grid.Col className="m-auto" span={"content"}>
             <WorkCard name="Flexport" imgPath="/flexport_logo.png" title="SWE Intern" subtitle="January 2021 – February 2022">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
@@ -34,8 +43,6 @@ export default function Portfolio() {
                 </List>
               </div>
             </WorkCard>
-          </Grid.Col>
-          <Grid.Col className="m-auto" span={"content"}>
             <WorkCard name="InterviewQuery" imgPath="/IQ_logo.png" title="ML Engineer Intern" subtitle="May 2022 – July 2022">
               <div className="pt-2">
                 <List className="mb-4 space-y-2">
