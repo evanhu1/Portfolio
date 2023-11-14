@@ -24,9 +24,12 @@ export default function RootLayout({
           </div>
           <nav className="nav w-full md:w-auto flex flex-col md:flex-row md:space-x-6 text-center mb-6">
             {/* <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="#about" target="_blank">Experience</a> */}
+            <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="/">Home</a>
             <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="https://docs.google.com/document/d/1BeETlLNPKBS98UL6V2_AjMVsjL1ndlwLK1tvW6Cnxrk/export?format=pdf" target="_blank">Resume</a>
             <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="https://github.com/evanhu1" target="_blank">Github</a>
             <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="https://www.linkedin.com/in/evanhu1/" target="_blank">LinkedIn</a>
+            <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="/art">Art</a>
+            <a className="m-2 px-3 py-1 hover:text-slate-900 text-slate-100 bg-slate-900 rounded-md hover:bg-slate-50" href="/photography">Photography</a>
           </nav>
         </header>
         <div className="bg-slate-900">
