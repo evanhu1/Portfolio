@@ -83,7 +83,7 @@ export function Portfolio() {
                   className="flex items-center space-x-2 hover:bg-gray-100 rounded-full p-2 transition-colors duration-300"
                 >
                   <Image
-                    src="/shortbreadLogo.png"
+                    src="/shortbreadlogo.png"
                     alt="Shortbread Logo"
                     width={24}
                     height={24}
