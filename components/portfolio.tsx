@@ -169,7 +169,7 @@ export function Portfolio() {
   );
 }
 
-function GithubIcon(props) {
+function GithubIcon(props: any) {
   return (
     <svg
       {...props}
@@ -189,7 +189,7 @@ function GithubIcon(props) {
   );
 }
 
-function LinkedinIcon(props) {
+function LinkedinIcon(props: any) {
   return (
     <svg
       {...props}
@@ -210,7 +210,7 @@ function LinkedinIcon(props) {
   );
 }
 
-function GlobeIcon(props) {
+function GlobeIcon(props: any) {
   return (
     <svg
       {...props}
