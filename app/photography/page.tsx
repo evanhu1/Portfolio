@@ -1,8 +1,17 @@
+"use client"
+
 import React from 'react';
 
 const Photography = () => {
     return (
         <div className="mx-auto px-4 max-w-7xl">
+      <button className="fixed hover:bg-gray-200 top-8 left-6 bg-white border-none rounded-full w-12 h-12 shadow-lg flex items-center justify-center cursor-pointer" onClick={() => window.history.back()}>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: '24px', height: '24px' }}>
+          <path d="M19 12H5" />
+          <path d="M12 19l-7-7 7-7" />
+        </svg>
+      </button>
+
             <div className="md:columns-3 space-y-4 pt-4">
                 {[
                     "https://i.imgur.com/2d6ahrU.jpg",
