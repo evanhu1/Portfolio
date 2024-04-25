@@ -1,6 +1,10 @@
 import { Libre_Franklin } from "next/font/google";
 import { Arimo } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
+import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
+import { projects } from "./projectData";
+import { useState } from "react";
 
 const libre_franklin = Libre_Franklin({
   subsets: ["latin"],
@@ -12,18 +16,27 @@ const arimo = Arimo({
   display: "swap",
 });
 
-import Link from "next/link";
-import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import { projects } from "./projectData";
-
 export function Portfolio() {
+  const [copiedPopup, setCopiedPopup] = useState(false);
+
+  const handleCopy = () => {
+    setCopiedPopup(true);
+    setTimeout(() => {
+      setCopiedPopup(false);
+    }, 1000);
+  };
+
   return (
     <div className={`flex flex-col min-h-screen`}>
       <div
         className="fixed bg-cover bg-center w-full min-h-screen -z-10 opacity-100 saturate-50"
         style={{ backgroundImage: "url(/scene.svg)" }}
       />
+      {copiedPopup && (
+        <div className="fade-in fixed bottom-4 left-4 bg-black text-white px-4 py-2 rounded-lg shadow-lg">
+          Email Copied to Clipboard
+        </div>
+      )}
       <nav className="fixed top-4 left-0 right-0 z-50 flex justify-end py-4 bg-transparent">
         <Link
           className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition"
@@ -62,6 +75,16 @@ export function Portfolio() {
               >
                 <LinkedinIcon className="h-6 w-6 text-sky-600 transition-colors duration-300" />
               </a>
+              <button
+                onClick={() => {
+                  navigator.clipboard.writeText("hi@evan.hu");
+                  handleCopy();
+                }}
+                className="cursor-pointer"
+                aria-label="Copy email address to clipboard"
+              >
+                <EmailIcon className="h-6 w-6 text-sky-600 transition-colors duration-300" />
+              </button>
             </div>
             <Avatar className="h-32 w-32">
               <AvatarImage alt="Avatar" src="/me.png" />
@@ -232,3 +255,24 @@ function GlobeIcon(props: any) {
     </svg>
   );
 }
+
+const EmailIcon = (props: any) => (
+  <svg
+    {...props}
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path
+      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
