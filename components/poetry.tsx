@@ -110,7 +110,7 @@ export function Poetry() {
         <div className="mt-12 flex flex-wrap justify-center gap-8">
           {poems.map((poem) => (
             <div key={poem.title} className="flex w-full max-w-m flex-col items-center justify-center rounded-lg bg-white p-12 text-center shadow dark:bg-gray-800 sm:w-auto">
-              <p className="text-lg font-medium text-gray-900 dark:text-white">{poem.title}</p>
+              <p className={`text-2xl font-bold text-gray-900 dark:text-white mb-4 ${cormorant_garamond.className}`}>{poem.title}</p>
               <div className="mt-4 space-y-4 text-gray-500 dark:text-gray-400">
                 {poem.lines.map((line, index) => (
                   <p key={index}>{line}</p>

@@ -27,10 +27,15 @@ export function Portfolio() {
   };
 
   return (
-    <div className={`flex flex-col min-h-screen`}>
+    <div className={`flex flex-col min-h-screen bg-black`}>
       <div
-        className="fixed bg-cover bg-center w-full min-h-screen -z-10 opacity-100 saturate-50"
-        style={{ backgroundImage: "url(/scene.svg)" }}
+        className="fixed bg-cover bg-center w-full min-h-screen -z-10"
+        style={{
+          maskImage: "url(/scene.svg)",
+          maskSize: "cover",
+          backgroundColor: "rgba(255, 255, 255, 0.5)",
+          backgroundImage: "linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5))"
+        }}
       />
       {copiedPopup && (
         <div className="fade-in fixed bottom-4 left-4 bg-black text-white px-4 py-2 rounded-lg shadow-lg">
