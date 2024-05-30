@@ -2,15 +2,14 @@ import fs from 'fs';
 import path from 'path';
 import util from 'util';
 import { NextResponse, NextRequest } from 'next/server';
+import { documentLanguageTitleMap } from '@/app/analects/documents';
 
 const readFile = util.promisify(fs.readFile);
 
 export async function GET(req: NextRequest, res: NextResponse) {
   try {
     const textsUrl = path.join(process.cwd(), 'public/texts');
-    const documentLanguageTitleMap = {
-      'HowToDoGreatWork': {'English': 'How To Do Great Work', 'Chinese': '如何做出伟大工作'}
-    };
+    
 
     const documents = await Promise.all(Object.entries(documentLanguageTitleMap).map(async ([doc, languageTitle]) => {
       const documentTranslations = await Promise.all(Object.entries(languageTitle).map(async ([language, languageTitle]) => {

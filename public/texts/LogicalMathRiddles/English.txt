@@ -1,0 +1,25 @@
+Two people are taking turns taking marbles from a box with an incredibly large amount of marbles inside. Whoever takes the last marble wins. The catch is that the first player to take cannot take all of the marbles, and each player can only take as much as the previous player took. I’m going first, what is my strategy to win every time?
+
+Two people play a game where they take turns taking balls from a bucket with 100 balls. Each turn you can take 1-5 balls, how do you guarantee win? Winner is the person who takes the last ball.
+
+100 people with numbers from 1-100 not necessarily unique (some can be repeated some can be not used at all) randomly written on their forehead. They have to all say a number at once and they need just one of them to say their own number to survive. How do they do it.
+
+100 people are boarding a plane. Each person has an assigned seat. The first person chooses a seat randomly. Each person after that follows the rule that if their seat is available, they sit in it. Otherwise, they choose a seat at random. What’s the chance that the last person sits in their own seat?
+
+100 people on an island with red or blue eyes, if anyone finds out their own color they kill themselves at noon. A foreigner washed ashore and says wow I didn’t know there were people with red eyes in this world and then leaves. On the 5th day after this, 5 people kill themselves. On the 6th day, the remaining 95 kill themselves. Why?
+
+100 people are lined up to be killed, each is wearing a randomly chosen hat that is either white or black. They have to guess their hat color to be saved. Killer starts from the back and moves forward, asking each person the color of their hat. What’s a strategy so the most people can live? 
+
+Need to cross a bridge with a guard in the middle, guard sleeps for 3 minutes at a time and then wakes and sends anyone he sees back to the start. It takes 5 minutes to run across the bridge, how do you get across? 
+
+Five pirates find 100 coins and need a way to split it. They take turns coming up with a way to split it. If a persons plan is accepted by more than half of the people than they split it that way, otherwise they throw him over board and let the next person state their plan. You get to go first, what do you say to ensure you get the most money and live? Assume pirates act rationally and all in their self interest.
+
+52 cards in a deck, 10 are flipped up randomly throughout the deck. A blind man has to somehow create two piles of cards such that there are an equal number of face up cards in each pile. He can flip any card at will, how does he do it?
+
+25 horses, you can race 5 at a time and don’t have a stopwatch. What is the least number of races to find the top 3 horses? 
+
+100 Prisoners Riddle: 100 Prisoners are numbered 1 to 100, and they know their own number. There are 100 boxes in a room, with the numbers 1-100 randomly placed in them. Each prisoner gets a chance to go and inspect 50 boxes, but must leave the room exactly untouched. If all 100 prisoners find their own number in the boxes then they all survive, otherwise they all die. What’s the best strategy for the prisoners? What’s the probability they all survive with this strategy.
+
+Three gods A, B, and C are called, in no particular order, True, False, and Random. True always speaks truly, False always speaks falsely, but whether Random speaks truly or falsely is a completely random matter. Your task is to determine the identities of A, B, and C by asking three yes-no questions; each question must be put to exactly one god. The gods understand English, but will answer all questions in their own language, in which the words for yes and no are da and ja, in some order. You do not know which word means which.
+
+A square has a quarter in each corner. You are blindfolded and must get all quarters to be heads up or all to be tails up. You will be told when you have done this. You may flip however many you want, then ask if you are done (this constitutes a turn). The square is then rotated/spun an undisclosed number of times. You then get another turn and so on… Is there a strategy that is guaranteed to work in a finite number of moves, and if so, what is that smallest number of moves you need to be 100% you’ll be able to have all heads up or all tails up?
