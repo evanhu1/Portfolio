@@ -75,13 +75,13 @@ export default function AnalectsPage() {
         className="rounded-full bg-gray-100 m-4 p-4 top-0 left-0 absolute md:hidden"
         onClick={() => setShowDocuments(!showDocuments)}
       >
-        Show Analects
+        Analects
       </button>
       <button
         className="rounded-full md:hidden bg-gray-100 m-4 fixed top-0 right-0 p-4"
         onClick={() => setShowLanguages(!showLanguages)}
       >
-        Toggle Languages
+        Languages
       </button>
     </div>
   );

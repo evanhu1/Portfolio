@@ -37,27 +37,27 @@ export function Portfolio() {
           Email Copied to Clipboard
         </div>
       )}
-      <nav className="fixed top-4 left-0 right-0 z-50 flex justify-end py-4 bg-transparent">
+      <nav className="flex-row space-x-2 md:space-x-4 fixed top-4 left-0 right-0 z-50 flex justify-end py-4 bg-transparent">
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
+          className="text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/photography"
         >
           Photography
         </Link>
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
+          className="text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/art"
         >
           Art
         </Link>
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
+          className="text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/poetry"
         >
           Poetry
         </Link>
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
+          className="text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/analects"
         >
           Analects
