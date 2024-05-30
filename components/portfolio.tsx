@@ -39,40 +39,38 @@ export function Portfolio() {
       )}
       <nav className="fixed top-4 left-0 right-0 z-50 flex justify-end py-4 bg-transparent">
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition"
+          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/photography"
         >
           Photography
         </Link>
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition"
+          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/art"
         >
           Art
         </Link>
         <Link
-          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition"
+          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
           href="/poetry"
         >
           Poetry
+        </Link>
+        <Link
+          className="mx-4 text-gray-600 bg-white hover:text-black px-4 py-2 rounded-full duration-200 hover:-translate-y-1 transition shadow-md"
+          href="/analects"
+        >
+          Analects
         </Link>
       </nav>
       <section className="flex flex-col items-center justify-center py-24 md:py-32 lg:h-screen mb-8">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-8 text-center">
             <div className="flex items-center space-x-4">
-              <a
-                href="https://github.com/evanhu1"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://github.com/evanhu1" rel="noopener noreferrer" target="_blank">
                 <GithubIcon className="h-6 w-6 text-sky-600 transition-colors duration-300" />
               </a>
-              <a
-                href="https://www.linkedin.com/in/evanhu1"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/evanhu1" rel="noopener noreferrer" target="_blank">
                 <LinkedinIcon className="h-6 w-6 text-sky-600 transition-colors duration-300" />
               </a>
               <button
@@ -96,9 +94,7 @@ export function Portfolio() {
                 Evan Hu
               </h1>
               <div className="flex flex-row items-center space-x-2 justify-items-center align-middle">
-                <p className="max-w-[700px] text-gray-600 md:text-xl">
-                  CTO and Co-founder at
-                </p>
+                <p className="max-w-[700px] text-gray-600 md:text-xl">CTO and Co-founder at</p>
                 <a
                   href="https://shortbread.ai/"
                   target="_blank"
@@ -112,19 +108,15 @@ export function Portfolio() {
                     height={24}
                     className="h-6 w-auto"
                   />
-                  <p
-                    className={`max-w-[700px] text-yellow-400 font-extrabold md:text-xl ${libre_franklin.className}`}
-                  >
+                  <p className={`max-w-[700px] text-yellow-400 font-extrabold md:text-xl ${libre_franklin.className}`}>
                     Shortbread
                   </p>
                 </a>
               </div>
               <br></br>
               <p className="max-w-[800px] text-gray-600 text-md">
-                My research interests include Human-AI interaction, agentic AI,
-                LLM memory, neurocomputational models. In my free time, I enjoy
-                singing, tennis, basketball, chess, reading, writing poetry, and
-                rock climbing.
+                My research interests include Human-AI interaction, agentic AI, LLM memory, neurocomputational models.
+                In my free time, I enjoy singing, tennis, basketball, chess, reading, writing poetry, and rock climbing.
               </p>
             </div>
           </div>
@@ -137,9 +129,7 @@ export function Portfolio() {
               <div className="inline-block rounded-lg bg-sky-100 px-3 py-1 text-sm text-sky-600">
                 AI, Games, and Creativity
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-6xl">
-                Projects
-              </h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-6xl">Projects</h2>
             </div>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-6">
@@ -149,12 +139,8 @@ export function Portfolio() {
                 className="h-56 rounded-lg border border-gray-200 bg-white text-gray-950 shadow-sm p-6 flex flex-col justify-between"
               >
                 <div className="flex flex-col space-y-3">
-                  <h3 className="text-2xl font-semibold leading-none tracking-tight">
-                    {project.name}
-                  </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
-                    {project.description}
-                  </p>
+                  <h3 className="text-2xl font-semibold leading-none tracking-tight">{project.name}</h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">{project.description}</p>
                 </div>
                 <div className="flex flex-row justify-start space-x-4">
                   {project.githubLink && (
@@ -179,11 +165,7 @@ export function Portfolio() {
                   )}
                 </div>
                 {project.imageUrl && (
-                  <Image
-                    src={project.imageUrl}
-                    alt={project.name}
-                    className="w-full h-auto rounded-lg"
-                  />
+                  <Image src={project.imageUrl} alt={project.name} className="w-full h-auto rounded-lg" />
                 )}
               </div>
             ))}
