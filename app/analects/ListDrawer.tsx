@@ -27,7 +27,7 @@ const ListDrawer = React.forwardRef<HTMLDivElement, ListDrawerProps>((props, ref
   const translateClass = side === 'left' ? 
     `${isOpen ? "translate-x-0" : "-translate-x-full"}` : 
     `${isOpen ? "translate-x-0" : "translate-x-full"}`;
-  console.log(selectedItem)
+
   return (
     <div
       className={`absolute z-10 bg-gray-100 p-4 h-full ${side === 'left' ? 'left-0' : 'right-0'} transform ${translateClass} transition-transform duration-300 ease-in-out md:relative md:translate-x-0 ${widthClass}`}

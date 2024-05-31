@@ -27,7 +27,7 @@ export function Portfolio() {
   };
 
   return (
-    <div className={`flex flex-col min-h-screen`}>
+    <div className={`flex flex-col min-h-screen relative`}>
       <div
         className="fixed bg-cover bg-center w-full min-h-screen -z-10 opacity-100 saturate-50"
         style={{ backgroundImage: "url(/scene.svg)" }}
