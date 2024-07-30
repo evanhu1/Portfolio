@@ -1,27 +1,46 @@
-1. PMF is the only thing that matters until you reach it
-2. Build something people want
-2.1. Usually, it’s easier to build some thing you love
-3. Do things that don’t scale
-4. Set a few key metrics to measure success and use them to drive decision making
-5. Launch earlier than you want to - launching challenges and validates your assumptions
-6. Iterate, validate, invalidate, and test new ideas as quickly as possible - you only have to be right once
+1. PMF is the only thing that matters until you reach it. Pre-PMF: resist scaling up hiring, paid marketing, negative unit economics, and prematurely optimizing your core product. You just need to get an 80/20 MVP in the hands of your users and validate your solution.
+Marc Andreessen explains product market fit best: https://pmarchive.com/guide_to_startups_part4.html
+
+2. Build something people want. Not what you think they want, not what you think they'll pay for, but something that you know they desperately need. Sequoia famously wrote about 'finding customers who "have their hair on fire"'. These customers wouldn't care if you handed them a bucket of water or a large stone, they'll use your product due to their urgent need.
+
+3. Know your user's problems. Learn to talk to users - read The Mom Test. Don't build solutions in isolation, don't build solutions looking for a problem. Figure out your ICP (ideal customer profile), find where they hang out, and go talk to them. Follow 3 principles:
+- If you just avoid mentioning your idea, you automatically start asking better questions.
+- You aren't allowed to tell them what their problem is, and in return, they aren't allowed to tell you what to build. They own the problem, you own the solution.
+- Feature requests should be understood, but not obeyed
+
+4. Launch earlier than you want to, before the first version is done, warts and all. Launching early challenges and validates your assumptions, redefines the problem landscape by having your solution in the hands of real users, and allows you to iterate more quickly. You can launch multiple times, the "one big launch" with everything perfect is fool's gold.
+"If you're not embarrassed by the first version of your product, you've launched too late" -Reid Hoffman
+
+5. Do things that don't scale: send personal emails to day 1 users, seed your ghost platform with fake content, go to affinity locations (college campuses, subreddits, forums) and start posting.
+The story of AirBnb illustrates this well, as told by Paul Graham:
+https://paulgraham.com/ds.html
+
+6. Set up product analytics ASAP. Early analytics show what users are using, what needs to improve, and what is broken, and enables you to objectively measure product value. 
+PostHog has a great article on this:
+https://posthog.com/founders/early-stage-analytics
+
 7. Market > Team / Product. 
-8. Develop and perfect your sense for people, product, market, and signal/noise
-9. Focusing is saying no - Steve Jobs
-10. Set up feedback loops as early as possible and then ruthlessly optimize them
-11. Be your own user, your most efficient feedback loop should be yourself
-12. Learn from other founders and startups, both successes and failures 
-13. Learn from the right people/founders. Each business has its own path to success
-14. Don’t blindly fear competition - startups always die of suicide not murder
-15. Know your user, know the market
-16. Surface and eliminate your personal biases
-17. Good ideas are cheap, good people are priceless
-18. It is worth spending time and money to assemble an elite team
-19. Be able to know the right thing and choose to do the wrong thing
-20. Focus on Pareto tasks. Do the things that give 80% benefit for 20% effort
-21. Inverse Pareto rule; seek and destroy the things that cost 80% and benefit 20% 
-22. Prioritize a healthy, happy co-founder relationship
-22.1. Figure out and work around anxious / avoidant character traits	
-23. Valuation is not equal to success or even probability of success
-24. Sometimes you need to fire your customers - they might be killing you
-25. Know when/how to use efficient and precise vs sensational language
+"The #1 killer of startups is lack of market" -Marc Andreessen
+"In a great market - a market with lots of real potential customers - the market pulls product out of the startup" -Marc Andreessen https://pmarchive.com/guide_to_startups_part4.html.
+
+8. You should say no to most things. Shiny ideas, distractions (like conferences, or talking to VCs), non-exceptional talent. 
+"People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things." - Steve Jobs
+
+9. For hiring: outbound > network > inbound. Inbound is broken by the simple fact that bad candidates vastly outnumber the good ones, which then vastly outnumber the excellent ones. You want the excellent ones, so do outbound.
+
+10. Be your own user. Dogfooding (using your own product internally) provides the fastest feedback loop and is the best way to understand the problem space other than talking to users.
+
+11. Learn from other founders and startups, both successes and failures. Finding good problems to build a startup out of, pivoting, finding PMF, hiring, growth, raising money - these are all problems that other founders have failed, succeeded, and shared their stories with.
+Read VC blogs (YC and Sequoia have great ones), startup blogs (Gem, PostHog, Linear), Paul Graham. Read "Founders at Work" by Jessica Livingston, and follow founders who post insightful things online.
+
+12. Don't blindly fear competition - startups always die of suicide not murder. Unless you are in a truly winner-takes-all market, other startups working on your idea should give you some validation on the potential for product market fit. HubSpot built a $25B business in the face of Salesforce's $250B one, amidst hundreds of others in the overcrowded SaaS landscape. 
+"There's room in every market for another great product with a different business strategy" - Posthog
+
+13. Good ideas are cheap, execution is everything. 
+"A good startup idea in someone's brain is usually a 1mm head start at the beginning of a marathon." - Garry Tan, CEO Y Combinator
+
+14. Companies are mostly about people. Hire the right ones starting with the very first. Don't settle, and don't justify settling because you feel the pressure to scale up your team. Many of the biggest startups reached PMF with a minimal team (often just the founders) and waited to hire until they found someone exceptional.
+
+15. 80% of the effects come from 20% of the causes. Diligently apply the 80/20 rule to everything you spend your time on as a founder, you can't afford to waste time any other way. Don't be a perfectionist.
+
+16. A healthy, happy co-founder relationship matters a lot. Set aside time every few weeks to have a deep check-in with your cofounder, cultivate a transparent relationship that avoids piling up issues.
